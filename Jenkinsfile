@@ -8,7 +8,7 @@ node {
         	checkout scm
         }
         stage ('Build') {
-        	sh "echo 'shell scripts to build project nnnnnn...'"
+        	sh "echo 'shell scripts to build project nnn...'"
 		
         }
         stage ('Tests') {
