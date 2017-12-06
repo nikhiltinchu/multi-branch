@@ -1,3 +1,4 @@
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/nikhiltinchu/multi-branch.git/'], pipelineTriggers([githubPush()])])
 node {
  	// Clean workspace before doing anything
     deleteDir()
